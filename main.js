@@ -30,11 +30,11 @@ function speak(){
     setTimeout(function(){
         takeSelfie();
         save();
-    },5000);
+    },10000);
     setTimeout(function(){
         takeSelfie();
         save();
-    },5000);
+    },15000);
 }
 
 camera = document.getElementById("camera");
